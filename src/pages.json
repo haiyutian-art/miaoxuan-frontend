@@ -1,0 +1,272 @@
+{
+	"pages": [
+		{
+			"path": "pages/login/index",
+			"style": {
+				"navigationStyle": "custom",
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/login/forgot-password",
+			"style": {
+				"navigationStyle": "custom",
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationStyle": "custom",
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/teacher/index",
+			"style": {
+				"navigationStyle": "custom",
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/teacher/course",
+			"style": {
+				"navigationStyle": "custom",
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/teacher/grade",
+			"style": {
+				"navigationStyle": "custom",
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/teacher/student",
+			"style": {
+				"navigationStyle": "custom",
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/teacher/profile",
+			"style": {
+				"navigationStyle": "custom",
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/course/term",
+			"style": {
+				"navigationStyle": "custom",
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/schedule/index",
+			"style": {
+				"navigationStyle": "custom",
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/profile/index",
+			"style": {
+				"navigationStyle": "custom",
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/course/list",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/mycourse/term",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/mycourse/list",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/grade/index",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/password/index",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/profile/update-info",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/ai-chat/ai-chat",
+			"style": { 
+				"navigationStyle": "custom" 
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "秒选通",
+		"navigationBarBackgroundColor": "#4facfe",
+		"backgroundColor": "#f5f7fa",
+		"app-plus": {
+			"bounce": "none",
+			"scrollIndicator": "none",
+			"titleNView": false,
+			"animationType": "none",
+			"animationDuration": 0
+		}
+	},
+	"tabBar": {
+		"color": "#7A7E83",
+		"selectedColor": "#4361ee",
+		"borderStyle": "black",
+		"backgroundColor": "#ffffff",
+		"height": "60px",
+		"fontSize": "12px",
+		"iconWidth": "24px",
+		"spacing": "3px",
+		"list": [
+			{
+				"pagePath": "pages/index/index",
+				"iconPath": "static/tabbar/home.png",
+				"selectedIconPath": "static/tabbar/home-active.png",
+				"text": "首页"
+			},
+			{
+				"pagePath": "pages/course/term",
+				"iconPath": "static/tabbar/course.png",
+				"selectedIconPath": "static/tabbar/course-active.png",
+				"text": "选课"
+			},
+			{
+				"pagePath": "pages/schedule/index",
+				"iconPath": "static/tabbar/schedule.png",
+				"selectedIconPath": "static/tabbar/schedule-active.png",
+				"text": "课表"
+			},
+			{
+				"pagePath": "pages/profile/index",
+				"iconPath": "static/tabbar/profile.png",
+				"selectedIconPath": "static/tabbar/profile-active.png",
+				"text": "我的"
+			}
+		]
+	},
+	"tabBarTeacher": {
+		"color": "#7A7E83",
+		"selectedColor": "#1890ff",
+		"borderStyle": "black",
+		"backgroundColor": "#ffffff",
+		"list": [
+			{
+				"pagePath": "pages/teacher/index",
+				"iconPath": "static/tabbar/home.png",
+				"selectedIconPath": "static/tabbar/home-active.png",
+				"text": "工作台"
+			},
+			{
+				"pagePath": "pages/teacher/course",
+				"iconPath": "static/tabbar/course.png",
+				"selectedIconPath": "static/tabbar/course-active.png",
+				"text": "课程"
+			},
+			{
+				"pagePath": "pages/teacher/grade",
+				"iconPath": "static/tabbar/schedule.png",
+				"selectedIconPath": "static/tabbar/schedule-active.png",
+				"text": "成绩"
+			},
+			{
+				"pagePath": "pages/teacher/profile",
+				"iconPath": "static/tabbar/profile.png",
+				"selectedIconPath": "static/tabbar/profile-active.png",
+				"text": "我的"
+			}
+		]
+	},
+	"subPackages": [
+		{
+			"root": "pages/teacher",
+			"pages": [
+				{
+					"path": "update-password",
+					"style": {
+						"navigationStyle": "custom"
+					}
+				},
+				{
+					"path": "update-info",
+					"style": {
+						"navigationStyle": "custom"
+					}
+				},
+				{
+					"path": "course-detail",
+					"style": {
+						"navigationStyle": "custom"
+					}
+				}
+			]
+		}
+	],
+	"easycom": {
+		"autoscan": true,
+		"custom": {
+			"^uni-(.*)": "@dcloudio/uni-ui/lib/uni-$1/uni-$1.vue"
+		}
+	},
+	"condition": {
+		"current": 0,
+		"list": [
+			{
+				"name": "教师端",
+				"path": "pages/teacher/index",
+				"query": ""
+			},
+			{
+				"name": "学生端",
+				"path": "pages/index/index",
+				"query": ""
+			}
+		]
+	}
+}

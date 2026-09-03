@@ -1,0 +1,43 @@
+/* 全局输入框样式重置 */
+page {
+  background: linear-gradient(135deg, #f8f8f8, #ffffff);
+}
+
+/* 输入框样式重置 */
+.uni-input-input,
+.uni-input-wrapper {
+  color: #333333 !important;
+}
+
+.uni-input-placeholder {
+  color: #999999 !important;
+}
+
+/* 修复输入框文本颜色 */
+uni-input {
+  color: #333333 !important;
+}
+
+uni-input[type="text"],
+uni-input[type="password"] {
+  color: #333333 !important;
+}
+
+/* 修复 input 组件样式 */
+.uni-input {
+  color: #333333 !important;
+  
+  &-wrapper {
+    color: #333333 !important;
+  }
+  
+  &-placeholder {
+    color: #999999 !important;
+  }
+}
+
+/* 确保文本可见性 */
+input {
+  -webkit-text-fill-color: #333333 !important;
+  color: #333333 !important;
+} 

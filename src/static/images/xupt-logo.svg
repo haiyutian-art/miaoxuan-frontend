@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="200" viewBox="0 0 200 200">
+  <!-- 蓝色圆形背景 -->
+  <circle cx="100" cy="100" r="95" fill="#1296db" />
+  
+  <!-- 白色圆环 -->
+  <circle cx="100" cy="100" r="75" fill="#ffffff" />
+  
+  <!-- 蓝色内圆 -->
+  <circle cx="100" cy="100" r="55" fill="#1296db" />
+  
+  <!-- XUPT白色字样 -->
+  <text x="100" y="105" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#ffffff">XUPT</text>
+</svg> 
